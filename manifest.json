@@ -2,8 +2,13 @@
     "manifest_version": 3,
     "name": "Content Blocker Extension",
     "version": "1.0",
+    "description": "Blocks annoying elements like cookie banners.",
     "permissions": [
-        "storage"
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
     ],
     "action": {
         "default_popup": "index.html",
